@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="578.0" prefWidth="1246.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.recolter.controller.GetReportFormController">
+   <children>
+      <Line endX="476.0" layoutX="608.0" layoutY="6.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="608.0" layoutY="76.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="608.0" layoutY="185.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="608.0" layoutY="246.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="608.0" layoutY="302.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="608.0" layoutY="357.0" startX="-464.0" />
+      <Line endX="-202.5" endY="578.5" layoutX="346.0" layoutY="8.0" startX="-202.5" startY="-1.5" />
+      <Line endX="476.0" layoutX="607.0" layoutY="414.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="608.0" layoutY="472.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="609.0" layoutY="529.0" startX="-464.0" />
+      <Line endX="476.0" layoutX="609.0" layoutY="587.0" startX="-466.0" startY="-1.0" />
+      <Line endX="-202.5" endY="578.5" layoutX="1287.0" layoutY="7.0" startX="-202.5" startY="-1.5" />
+      <Line endX="-204.5" endY="578.5" layoutX="1037.0" layoutY="7.0" startX="-204.5" startY="177.5" />
+      <Line endX="-204.5" endY="578.5" layoutX="779.0" layoutY="7.0" startX="-204.5" startY="68.5" />
+      <Label layoutX="391.0" layoutY="21.0" prefHeight="40.0" prefWidth="422.0" text="Compost Fertilizer analyze Report">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="77.0" prefHeight="40.0" prefWidth="192.0" text="Description :">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="586.0" layoutY="74.0" prefHeight="40.0" prefWidth="346.0" text="Identification of test item">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="586.0" layoutY="106.0" prefHeight="40.0" prefWidth="173.0" text="Sample No       :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="586.0" layoutY="141.0" prefHeight="40.0" prefWidth="173.0" text="Date Of Issued :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="767.0" layoutY="108.0" prefHeight="35.0" prefWidth="219.0" />
+      <TextField layoutX="767.0" layoutY="145.0" prefHeight="35.0" prefWidth="219.0" />
+      <Label layoutX="287.0" layoutY="194.0" prefHeight="40.0" prefWidth="127.0" text="Parameter">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="253.0" prefHeight="40.0" prefWidth="173.0" text="Nitogen (N)">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="310.0" prefHeight="40.0" prefWidth="173.0" text="Carbon (C)">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="159.0" layoutY="367.0" prefHeight="40.0" prefWidth="173.0" text="Phosphours (P)">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="425.0" prefHeight="40.0" prefWidth="173.0" text="Moisture (M)">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="482.0" prefHeight="40.0" prefWidth="311.0" text="Potential Of hydrogen (PH)">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="160.0" layoutY="538.0" prefHeight="40.0" prefWidth="311.0" text="Potassium (K2O)">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="636.0" layoutY="195.0" prefHeight="40.0" prefWidth="173.0" text="Results (%)">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="889.0" layoutY="204.0" prefHeight="45.0" prefWidth="167.0" text="Acceptable ">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="890.0" layoutY="179.0" prefHeight="40.0" prefWidth="173.0" text="Amount (%)">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

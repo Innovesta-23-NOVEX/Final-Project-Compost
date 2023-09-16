@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.recolter.controller.DeleteSupplierFormController">
+   <children>
+      <ImageView fitHeight="62.0" fitWidth="65.0" layoutX="819.0" layoutY="37.0">
+         <image>
+            <Image url="@../image/Manage%20Supplier%20Icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="299.0" layoutY="76.0" prefHeight="55.0" prefWidth="290.0" text="Delete Supplier">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <TextField layoutX="183.0" layoutY="245.0" prefHeight="42.0" prefWidth="207.0" />
+      <Label layoutX="77.0" layoutY="239.0" prefHeight="40.0" prefWidth="126.0" text="Name">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="306.0" prefHeight="40.0" prefWidth="126.0" text="Supplier Id">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField layoutX="183.0" layoutY="305.0" prefHeight="42.0" prefWidth="207.0" />
+      <Button layoutX="672.0" layoutY="578.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="99.0" style="-fx-background-color: #24A922;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TableView layoutX="120.0" layoutY="459.0" prefHeight="95.0" prefWidth="651.0">
+         <columns>
+            <TableColumn prefWidth="155.00001525878906" text="Supplier Id" />
+            <TableColumn prefWidth="159.0" text="Item Id" />
+            <TableColumn prefWidth="174.33331298828125" text="Item Name" />
+            <TableColumn prefWidth="161.66668701171875" text="Quantity" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="329.0" fitWidth="428.0" layoutX="419.0" layoutY="126.0">
+         <image>
+            <Image url="@../image/SupplierBackgroundimg.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1364.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.recolter.controller.HomeFormController">
+   <children>
+      <AnchorPane prefHeight="722.0" prefWidth="1366.0">
+         <children>
+            <AnchorPane layoutX="-2.0" layoutY="-2.0" prefHeight="738.0" prefWidth="124.0" styleClass="backgroundColor" stylesheets="@../../java/lk/ijse/recolter/styleSheet/slidePanelGradient.css">
+               <children>
+                  <ImageView fitHeight="28.0" fitWidth="29.0" layoutX="46.0" layoutY="42.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" rotate="-90.0" y="-4.0">
+                     <image>
+                        <Image url="@../image/doubleArrow.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="33.0" layoutY="462.0" onMouseClicked="#cctvOnClick">
+                     <image>
+                        <Image url="@../image/CCTVIcon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="34.0" layoutY="663.0">
+                     <image>
+                        <Image url="@../image/logoutIcon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Line endX="-13.0" layoutX="118.0" layoutY="548.0" startX="-100.0" stroke="WHITE" strokeWidth="2.0" />
+                  <ImageView fitHeight="101.0" fitWidth="101.0" layoutX="11.0" layoutY="559.0" onMouseClicked="#adminOnClick">
+                     <image>
+                        <Image url="@../image/AdminIcon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="39.0" layoutY="176.0" onMouseClicked="#homeClick">
+                     <image>
+                        <Image url="@../image/TestQualti.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="55.0" fitWidth="56.0" layoutX="36.0" layoutY="111.0">
+                     <image>
+                        <Image url="@../image/HomeIcon.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="39.0" layoutY="314.0" onMouseClicked="#productOnClick">
+                     <image>
+                        <Image url="@../image/Manageproducticon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="37.0" layoutY="390.0" onMouseClicked="#supplierIconOnClick">
+                     <image>
+                        <Image url="@../image/ManageSupplierIcon.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <ImageView fitHeight="51.0" fitWidth="45.0" layoutX="39.0" layoutY="245.0" onMouseClicked="#pileClick">
+                     <image>
+                        <Image url="@../image/pileIcon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="121.0" prefHeight="724.0" prefWidth="1246.0">
+               <children>
+                  <ImageView fitHeight="736.0" fitWidth="1248.0" layoutX="1.0">
+                     <image>
+                        <Image url="@../image/homeBackgroundimg.jpg" />
+                     </image>
+                  </ImageView>
+
+                  <DatePicker layoutX="1028.0" layoutY="682.0" prefHeight="35.0" prefWidth="174.0">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </DatePicker>
+                  <ImageView fitHeight="58.0" fitWidth="62.0" layoutX="1139.0" layoutY="120.0">
+                     <image>
+                        <Image url="@../image/notification.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Label layoutX="85.0" layoutY="107.0" prefHeight="43.0" prefWidth="334.0" text="Add New Item Amount" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="85.0" layoutY="413.0" prefHeight="43.0" prefWidth="334.0" text="Product Stock Status" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="914.0" layoutY="125.0" prefHeight="55.0" prefWidth="247.0" text="Notification" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="38.0" />
+                     </font>
+                  </Label>
+                  <SubScene height="230.0" layoutX="106.0" layoutY="169.0" opacity="0.61" width="312.0">
+                    <root>
+                      <Region />
+                    </root>
+                  </SubScene>
+                  <SubScene height="224.0" layoutX="107.0" layoutY="473.0" opacity="0.61" width="312.0">
+                     <root>
+                        <Region />
+                     </root>
+                  </SubScene>
+                  <ImageView fitHeight="91.0" fitWidth="318.0" layoutX="20.0" layoutY="6.0" style="-fx-effect: #000000;">
+                     <image>
+                        <Image url="@../image/recolterLogo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

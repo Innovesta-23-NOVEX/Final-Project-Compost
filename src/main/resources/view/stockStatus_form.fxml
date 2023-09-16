@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.SubScene?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane opacity="0.72" prefHeight="724.0" prefWidth="1246.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.recolter.controller.StockStatusFormController">
+   <children>
+      <Line endX="-46.0" endY="415.66668701171875" layoutX="896.0" layoutY="271.0" startX="-46.0" startY="-172.33334350585938" />
+      <ImageView fitHeight="82.0" fitWidth="82.0" layoutX="1136.0" layoutY="31.0">
+         <image>
+            <Image url="@../image/Manage%20product%20icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="935.0" layoutY="130.0" prefHeight="49.0" prefWidth="244.0" text="Product Status">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <SubScene height="296.0" layoutX="35.0" layoutY="98.0" width="368.0">
+        <root>
+          <Region />
+        </root>
+      </SubScene>
+      <SubScene height="297.0" layoutX="439.0" layoutY="98.0" width="368.0">
+         <root>
+            <Region />
+         </root>
+      </SubScene>
+      <Label layoutX="97.0" layoutY="114.0" prefHeight="49.0" prefWidth="244.0" text="Add New Stock">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="490.0" layoutY="114.0" prefHeight="49.0" prefWidth="270.0" text="Reduce Sold Stock">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField layoutX="76.0" layoutY="222.0" prefHeight="55.0" prefWidth="279.0" />
+      <Label layoutX="77.0" layoutY="172.0" prefHeight="49.0" prefWidth="244.0" text="Enter Quantity Here">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField layoutX="484.0" layoutY="222.0" prefHeight="55.0" prefWidth="279.0" />
+      <Label layoutX="485.0" layoutY="172.0" prefHeight="49.0" prefWidth="244.0" text="Enter Quantity Here">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="311.0" layoutY="233.0" prefHeight="34.0" prefWidth="50.0" text="KG">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="717.0" layoutY="233.0" prefHeight="34.0" prefWidth="50.0" text="KG">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="83.0" fitWidth="83.0" layoutX="168.0" layoutY="344.0">
+         <image>
+            <Image url="@../image/Plus%20Mark.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="176.0" layoutY="297.0">
+         <image>
+            <Image url="@../image/Plus_Mark.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="62.0" layoutX="586.0" layoutY="305.0">
+         <image>
+            <Image url="@../image/minus_mark.png" />
+         </image>
+      </ImageView>
+      <SubScene height="277.0" layoutX="36.0" layoutY="421.0" width="768.0">
+         <root>
+            <Region />
+         </root>
+      </SubScene>
+      <Label layoutX="237.0" layoutY="433.0" prefHeight="49.0" prefWidth="356.0" text="Product Stock Status On">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="162.0" layoutY="509.0" opacity="0.83" prefHeight="162.0" prefWidth="203.0" style="-fx-background-color: #36D60F;" />
+      <AnchorPane layoutX="463.0" layoutY="509.0" opacity="0.92" prefHeight="162.0" prefWidth="203.0" style="-fx-background-color: #EBB551;" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#02d402" height="54.0" layoutX="948.0" layoutY="534.0" smooth="false" stroke="WHITE" strokeType="INSIDE" width="209.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00ff66" height="56.0" layoutX="949.0" layoutY="607.0" smooth="false" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="209.0" />
+      <Label layoutX="966.0" layoutY="548.0" prefHeight="28.0" prefWidth="150.0" text="Available Stock " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="966.0" layoutY="622.0" prefHeight="28.0" prefWidth="143.0" text="Available Stock " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
