@@ -1,3 +1,7 @@
 .backgroundColor{
     -fx-background-color: linear-gradient(#9258FFFF, #9258ff);
 }
+
+.navButtons{
+    -fx-background-color: transparent;
+}
